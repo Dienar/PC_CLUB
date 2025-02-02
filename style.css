@@ -1,0 +1,845 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* обнуляем отступы и убираем бордюры */
+	vertical-align: baseline;          /* приводим все к одной базовой линии */
+	background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */                 /* размер шрифта всем одинаковый */
+}
+img{
+
+	max-width:100%!important;
+}
+body{
+    background-color: #000;
+   
+}
+#menu3{
+    color: white;
+    
+}
+header img{
+    width: 100px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 30px;
+}
+.main{
+    padding-top: 30px;
+}
+ul{
+    list-style:none;
+    margin: 0;
+    padding: 20px;
+}
+ .menu{
+position: relative;
+	color:white; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+}
+  .menu:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: whitesmoke; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+    margin-top: 10px;/*задаём время анимации*/
+}
+.menu:after { left: 50%; transform: translateX(-50%); }
+.menu a:focus:after,
+:hover:after{
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+a{
+    font-size: 13px;
+    padding: 20px;
+    
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    opacity: 0.7;
+}
+.main li{
+   display: inline;
+}
+a {
+    text-decoration: none;
+}
+header a{
+    color: white;
+    cursor:pointer;
+    font-size: 35px;
+    font-weight: bold;
+  font-family: ReSquare;
+}
+header{
+position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    background-color: #111;
+    
+     padding-bottom:20px;
+    margin: 0 auto;
+}
+
+.main .icon{
+    display: none;
+}
+.spase{
+    margin-top: 131px;
+}
+
+.center-block-main {
+max-width: 100%!important;margin: 0;
+   
+    
+}
+.my-slider{
+   
+}
+	.my-slider ul li{
+		position: relative; color:#aef79b;
+	}
+	.my-slider ul li h1{
+		position: absolute; top: 220px; left: 30px; font-size: 60px;font-weight: bold;line-height: 1.1;font-family: ReSquare;text-shadow: white 0  5px;
+	}
+	.my-slider ul li h2{
+		position: absolute; top: 370px; left: 30px;text-shadow: white 0  5px; font-size: 60px;font-family: monospace;font-family: ReSquare;
+	}
+	.unslider-nav{
+		width: 100%; margin: 0 auto;position: relative;top: -40px;
+	}
+
+.text5{
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 1%;
+    max-width: 500px;
+     height: 350px;
+}
+.zhel p{
+    font-weight: bold;
+    color: white;
+   font-size: 50px;
+    font-family: ReSquare;
+     padding-left: 15px;
+     padding-top: 50px;
+}
+.zhel2 p{
+    padding-left: 15px;
+    padding-top: 70px;
+    font-weight: bold;
+    color:whitesmoke;
+   font-size: 25px;
+    
+}
+.colom{
+    display: flex;
+    padding-bottom: 100px;
+   padding-right: 17px;
+}
+.pk{
+     display: flex;
+    justify-content: space-between;
+      
+}
+.pk2 h4{
+    margin-bottom: 3%;
+    font-size: 40px;
+     font-family: ReSquare;
+}
+.pk2 p{
+    color:whitesmoke;
+    font-family: Times, Times New Roman, Georgia, serif;
+}
+.pk2 img{
+    
+    width: 80px;
+}
+.pk1 img{
+    width: 80px;
+}
+.pk1 p{
+    color:whitesmoke;
+    font-family: Times, Times New Roman, Georgia, serif;
+}
+
+.pk1 h4{
+    margin-bottom: 3%;
+    font-size: 40px;
+     font-family: ReSquare;
+}
+.pk1 h1{
+    font-size: 45px;
+   margin-bottom: 3%;
+     font-family: ReSquare;
+}
+.pk2 h1{
+    font-size: 45px;
+    margin-bottom: 3%;
+     font-family: ReSquare;
+}
+.pk1{
+    margin-left: 150px;
+    
+    color: white; 
+    padding: 50px 50px 0 0;
+        
+}
+.pk2{
+    
+     color: white;
+   padding: 50px 0 0 100px;
+}
+.colom2{
+    margin-top: 5%;
+    
+    height: 20%;
+    margin-left: 5%; 
+}
+.ceni_c h1{
+    padding-bottom: 20px;
+    
+    font-size: 60px;
+    font-family: ReSquare;
+    color: white;
+    
+     border-bottom:5px solid #aef79b;
+    width: 142px;
+    
+    margin-bottom: 4%;
+    margin-left:8%;
+}
+.drink h1{
+    font-family: ReSquare;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+.drink p{
+    font-family: ReSquare;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sode2 p{
+     font-family: ReSquare;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sode2 div{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.sode1 div{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.sode2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+.sode1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.textick h1{
+    
+     font-family: ReSquare;
+    color: white;
+    font-size: 49px;
+    border-bottom: 3px solid red;
+    width: 206px;
+    margin: 0 auto;
+    margin-top: 9%;
+    padding-bottom: 20px;
+}
+.textick h2{
+     font-family: ReSquare;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.textick p{
+    
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.eda h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+     font-family: ReSquare;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+.eda img{
+    width: 200px;
+    height: 200px;
+}
+.drink h1{
+    margin-top: 9%;
+     margin-bottom: 40px;
+}
+.drink img{
+    width: 200px;
+    height: 200px;
+}
+.wrapper1 {
+    width: 100%;
+    display: flex;
+     color: white;
+    font-size: 30px;
+    font-family: ReSquare;
+    margin-bottom: 20px; 
+}
+.flex{
+    display: flex;
+    margin-left: 8%;
+    padding-bottom: 15px;
+    height: 100px;
+    flex-direction: column;
+}
+.ocsnov{
+    margin-right: 10%;
+    cursor: pointer;
+    padding-bottom: 15px;
+    width: 217px;
+}
+
+.part p{
+    font-size: 50px;
+}
+.bar h2{
+    font-size: 35px;
+}
+.noch{
+
+    margin-left: 20%;
+}
+.vid{
+    border-bottom:3px solid #aef79b; 
+}
+.by{
+    margin-bottom: 20px;
+}
+.le{
+    float: left;
+}
+.ri{
+    display: flex;  
+}
+.a{
+    padding-bottom: 15px;
+    width: 80px!important;
+}
+.vrem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2px;
+    width: 199px;
+    background-color:#595959;
+}
+.flex{
+        margin-top: 7px;
+}
+.vix{
+    
+    margin-top: 20%;
+}
+.button:hover{
+    opacity: 0.3;
+}
+.button {
+  font-size: 45px;
+  max-width: 500px;
+  cursor: pointer;
+}
+.bar{
+    width: 100%;
+    display: none;
+    margin-left: 15%;
+}
+.bar.show{
+    display: flex;
+}
+.bar p{
+    margin-top: 30px;
+    color: white;
+     font-family: ReSquare;
+}
+.a{
+    width: 180px;
+}
+.pk_club img{  
+   float: right;
+   width: 100%;
+}
+.cpis{
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    font-family: ReSquare;
+    display: flex;
+     justify-content: space-around;
+}
+.igri{
+     color: white;
+    font-family: ReSquare;
+    margin-top: 100px;
+   width: 257px;
+    font-size: 45px;
+    margin-left: 8%;
+     border-bottom:3px solid #aef79b; 
+    padding-bottom: 15px;
+}
+.mnogo{
+   display: flex;
+}
+.fis{
+    float: left;
+    width: 300px;
+}
+.top_games{
+   margin-top: 8%;
+}
+.secol{
+  float: left;
+    margin-left: 50px;
+    width: 338px;
+}
+.mnogo a{
+    cursor: default;
+}
+.mnogo img{
+   vertical-align: middle;
+    width: 100px;
+    height: 80px;
+}
+.mnogo span{
+    font-size: 30px;
+  vertical-align: middle;
+}
+
+.karti_h h4{
+    width: 150px;
+    padding-bottom: 13px;
+    border-bottom:3px solid #aef79b; 
+    font-size: 50px;
+    color: white;
+    font-family: ReSquare;
+    text-align: left;
+    margin-left: 8%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+
+.karti_1{
+    padding: 30px;
+    width: 400px;
+   }
+.karti{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.karti_1 p{
+    font-family: ReSquare;
+    font-size:27px;
+    margin-top: 10px;
+    color: black;
+    padding-bottom: 15px;
+}
+.karti_1{
+    margin-right: 10px;
+    padding-top: 20px;
+    border-radius: 10%;
+    background-color: #596;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.karti_1 img{
+    max-width: 320px!important;
+    height: 200px;
+}
+footer{
+    background-color: white;
+    padding-top: 30px;
+   padding-bottom: 30px;
+    font-family: ReSquare;
+}
+.futlogo img{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+figcaption{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    font-size: 40px;
+}
+.futlogo{
+    width: 100%;
+}
+.blockContact{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 130px;
+}
+
+.blockContact a{
+    color: black;
+    font-size: 30px;
+    padding: 0px;
+    line-height: 40px;
+}
+ol, ul {
+    
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:1673px){
+    .secol{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:1626px){
+    .secol{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:1500px){
+    .pk_club img{
+        margin-top: 30px;
+        
+    }
+}
+@media screen and (max-width:1472px){
+    .igri{
+        width: 24%;
+    } 
+}
+@media screen and (max-width:1442px){
+.pk_club img{
+        margin-top: 40px;
+        
+    }
+}
+@media screen and (max-width:1366px){
+    .pk_club img{
+        margin-top: 60px;
+        
+    }
+}
+@media screen and (max-width:1342px){
+    .flex click h1{
+        font-size: 50px;
+    }
+    .cpis{
+  
+    display: flex;
+   flex-direction:column;
+    
+}
+    .mnogo{
+   width: 100%;
+    height: 100%;
+   width: 700px; margin: 0 auto;
+   
+    
+   
+   
+}
+    .vmes{
+        display: block;
+        margin: 0px;
+    }
+    .fis{
+        margin: 0px;
+    float:none;
+    width: 100%;
+}
+    .secol{
+        margin: 0px;
+        float: none;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1388px){
+    .vrem{
+        width: 171px;
+    }
+    .igri{
+        font-size: 40px;
+    }
+    header a{
+    font-size: 30px;
+}
+    
+    .colom2 {
+    margin-left: 65px;
+    
+    }
+    
+    .zhel2 p{
+        font-size: 20px;
+    }
+    .pk2 h4{
+        
+    }
+    .pk1 h4{
+        
+    }
+    .pk h1{
+        font-size: 35px;
+    }
+    
+    .button{
+        font-size: 30px;
+    }
+    .ocsnov{
+        width: 145px;
+        margin-right: 50px;
+    }
+    .a{
+        width: 89px!important;
+    }
+    .part h1{
+        font-size: 50px;
+    }
+    .part h2{
+        font-size: 30px;
+    }
+    .part p{
+        font-size: 30px;
+    }
+    .part.noch h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1280px){
+    .mnogo{
+        margin-left: 350px;
+    }
+}
+@media screen and (max-width:1250px){
+    .mnogo{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:1037px){
+    .colom2 {
+    margin-left: -46px;
+    
+    }
+    .bar{
+    margin-left: 6%;
+}
+}
+@media screen and (max-width:1045px){
+    .eda h1{
+        margin-top: 40px;
+        
+    }
+    .drink h1{
+        margin-top: 20%;
+    }
+    .mnogo img{
+  
+    width: 120px;
+    height: 100px;
+}
+    .mnogo span{
+        font-size: 33px;
+    }
+    .futlogo img{
+    
+    width: 30px;
+    height: 30px;
+}
+    header .main.responsive{
+        height:430px;
+    }
+    header a{
+        font-size: 50px;
+        
+    }
+    
+    .pk1 h1{
+        font-size: 40px;
+      
+    }
+    .pk2 h1{
+        font-size: 40px;
+        
+    }
+    .noch{
+    margin-left: 40px;
+   }
+    .part p{
+    font-size: 45px;
+   }
+    .karti_1{
+    padding: 30px;
+
+   }
+    .karti p{
+    font-size: 40px;
+   }
+    .flex h1{
+    font-size: 45px;
+   }
+    .contact li a{
+    font-size: 28px;
+   }
+    .contact{
+    font-size: 30px;
+   }
+    .spase{
+        margin-top: 153px;
+    } 
+}
+
+
+@media screen and (max-width:1324px){
+   
+    header img{
+        width: 100px;
+    }
+    .spase{
+        margin-top: 133px;
+    }
+    #menu1.transform {
+        
+  transform: rotate(-90deg);
+}
+    .menu2 {
+        display: none!important;
+    }
+    .main a{
+        display: none;
+    }
+    .main a.icon{
+        float: right;
+        margin-top: -50px;
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+    nav{
+        width: 100%;
+        
+    }
+    .main.responsive{
+        position: relative;
+        padding-top: 120px;
+    }
+        
+    
+    header .main.responsive{
+        font-size: 100px;
+    }
+    .main.responsive a.icon{
+        position: absolute;
+        top: 30px;
+        right: -00px;
+        
+    }
+    .menu:after {
+	display: none;
+	 
+}
+    
+    
+    .main.responsive a{
+        
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .menu a:hover{
+        border-bottom: 3px solid white;
+    }
+    
+}
+@media screen and (max-width: 985px) {
+}
+@media screen and (max-width: 900px) {
+    
+    h1{
+		font-size: 10px;
+        
+	}
+	.my-slider ul li h2{
+		top: 270px;
+	}
+}
+@media screen and (max-width: 740px) {
+	.my-slider ul li h1{
+		top: 100px; font-size: 2em;
+	}
+	.my-slider ul li h2{
+		top: 180px;
+    }
+    }
+
+@media screen and (max-width: 480px){
+	.my-slider ul li h1{
+		top: 50px; font-size: 1.275em;
+	}
+	.my-slider ul li h2{
+		top: 110px;
+	}
+    }
+@media screen and (max-width: 426px){
+    .part p{
+        font-size: 20px!important;
+}
+@media screen and (max-width: 360px){
+	
+	.my-slider ul li h1{
+		top: 30px; font-size: 1em;
+	}
+	.my-slider ul li h2{
+		top: 80px;
+	}
+}
+@media screen and (max-width: 407px){
+    
+    }

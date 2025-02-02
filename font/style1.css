@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ReSquare';
+    src: local('ReSquare Medium'), local('ReSquare-Medium'),
+        url('ReSquare-Medium.woff2') format('woff2'),
+        url('ReSquare-Medium.woff') format('woff'),
+        url('ReSquare-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
