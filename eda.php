@@ -9,8 +9,6 @@
 </head>
 <body>
     <header align="center">
-      
-      
     <nav>
       
       <ul>

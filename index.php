@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple Gaming</title>
-     
  <link rel="shortcut icon" href="img/Novje.png" type="image/png">
 <link rel="stylesheet" href="style.css">
 
